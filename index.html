@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meghalaya Tour Packages & Cab Rental</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      color: #212121;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Poppins', sans-serif;
+      color: #00695C;
+    }
+
+    .btn-primary {
+      background-color: #FF5722;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #e64a19;
+    }
+
+    /* Header */
+    .navbar {
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      color: #00695C !important;
+    }
+
+    .hero-section {
+      background: linear-gradient(rgba(0, 105, 92, 0.8), rgba(0, 105, 92, 0.8)),
+        url('https://images.unsplash.com/photo-1574531964313-fec3b2efb384?auto=format&fit=crop&w=1600&q=80') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      border-radius: 0 0 30px 30px;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero-section p {
+      font-size: 1.2rem;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Fixed Header: Logo Left, Button Right (All Devices) -->
+  <nav class="py-3 px-4 bg-white shadow-sm" style="border-bottom: 2px solid #ff5722;">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <!-- Logo -->
+      <a class="fw-bold text-decoration-none" href="#"
+        style="font-size: 1.8rem; font-family: 'Poppins', sans-serif; color: #00695C;">
+       <img src="assets/img/logo.png" alt="" class="logo">
+      </a>
+
+      <!-- Book Now Button -->
+      <a href="tel:8812970938" class="btn btn-primary px-4 py-2" style="border-radius: 30px;">
+        📞 Book Now
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- Left: Text Content -->
+        <div class="col-md-6 mb-4 mb-md-0">
+          <h1 class="mb-3 fw-bold" style="font-family: 'Poppins', sans-serif; color: #00695C;">
+            Best <span style="color: #FF5722;">Meghalaya Cab Services</span> &amp;
+            <span style="color: #FFC107;">Tour Packages</span>
+          </h1>
+          <p style="font-size: 1.1rem; color: #444;">
+            Explore the beauty of <strong>Shillong, Cherrapunji</strong> and more with our
+            affordable <span style="color: #00695C; font-weight: 600;">cab rentals</span> and
+            <span style="color: #00695C; font-weight: 600;">customized holiday packages</span>.
+          </p>
+          <!-- Blinking Animated CTA Section -->
+          <section class="blinking-cta">
+            <h2 class="text-white"> Book Now, Pay After the Ride – <b>No Advance Required!</b> </h2>
+          </section>
+          <a href="#packages" class="btn btn-primary px-4 py-2 mt-3" style="border-radius: 30px;">
+            📅 Book Your Trip Now
+          </a>
+          <img src="assets/img/herotrustorg.png" alt="" class="img-fluid mt-3" >
+        </div>
+
+
+
+
+        <!-- Right: Hero Image -->
+        <div class="col-md-6 text-center">
+          <img src="assets/img/herosectionhome.png"
+            alt="Meghalaya Tour Cab" class="img-fluid rounded-4 ">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+<!-- ======= Our Services Section ======= -->
+<section class="our-services " style="background-color: #f0fdfa;">
+  <div class="container text-center">
+    <h2 class="section-title mb-5" style="color: #00695C;">What We Offer</h2>
+    <div class="row g-4">
+
+      <!-- Tour Packages -->
+      <div class="col-md-4">
+        <div class="service-box p-4 h-100 rounded-4 shadow-sm bg-white service-box">
+          <div class="icon-box mb-3">
+            <i class="fas fa-map-marked-alt fa-2x text-success"></i>
+          </div>
+          <h5 class="fw-semibold">Tour Packages</h5>
+          <p class="text-muted">Curated Northeast tour packages tailored for nature lovers, families, and adventurers alike.</p>
+        </div>
+      </div>
+
+      <!-- Car Rentals -->
+      <div class="col-md-4">
+        <div class="service-box p-4 h-100 rounded-4 shadow-sm bg-white">
+          <div class="icon-box mb-3">
+            <i class="fas fa-car-side fa-2x text-primary"></i>
+          </div>
+          <h5 class="fw-semibold">Car Hiring / Rental</h5>
+          <p class="text-muted">AC cabs, SUVs, and luxury cars with professional drivers for local and intercity rides.</p>
+        </div>
+      </div>
+
+      <!-- Hotel Booking -->
+      <div class="col-md-4">
+        <div class="service-box p-4 h-100 rounded-4 shadow-sm bg-white">
+          <div class="icon-box mb-3">
+            <i class="fas fa-hotel fa-2x text-warning"></i>
+          </div>
+          <h5 class="fw-semibold">Hotel Booking</h5>
+          <p class="text-muted">Budget to luxury hotel bookings with the best deals and local hospitality partners.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Our Tour Packages Section -->
+  <section class="py-5" style="background-color: #f5f5f5;">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold" style="color: #00695C; font-family: 'Poppins', sans-serif;">
+        ✨ Our Tour Packages
+      </h2>
+
+      <div class="row g-4">
+        <!-- Tour Card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="assets/img/packages1.jpeg" class="card-img-top" alt="Guwahati & Kaziranga">
+            <div class="card-body">
+              <h5 class="card-title text-success">Guwahati & Kaziranga 4 Days Trip</h5>
+              <h6 class="location"> <i class="fa-solid fa-location-dot "></i> Guwahati & kaziranga 4 Days
+              </h6>
+
+              <p class="text-muted mb-1 fs-6"><i class="fas fa-clock me-1 text-warning"></i> <strong>4 Days</strong> ·
+                Easy
+              </p>
+              <p class="card-text">
+                Experience Assam’s rich heritage and captivating wilderness with the <strong>Guwahati & Kaziranga 4‑Days
+                  Trip</strong> by NExplore.
+              </p>
+              <p class=" mb-3 tourprice">₹19999</p>
+              <div class="d-flex justify-content-between">
+                <a href="#contact" class="btn btn-gradient-green px-3 py-2">
+                  <i class="fas fa-phone-alt"></i>Contact Now
+                </a>
+                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                  <i class="fas fa-eye"></i>View Trip
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Duplicate 4 More Cards -->
+        <!-- You can replace the image and text for real tours -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="assets/img/tourpackage2.jpg" class="card-img-top" alt="Tour 2">
+            <div class="card-body">
+              <h5 class="card-title text-success">Guwahati & Meghalaya 7 Days Trip</h5>
+              <h6 class="location"> <i class="fa-solid fa-location-dot "></i> Guwahati & Meghalaya 7 Days
+              </h6>
+              <p class="text-muted mb-1 fs-6"><i class="fas fa-clock me-1 text-warning"></i> <strong>7 Days</strong>
+                Easy</p>
+              <p class="card-text">This 7‑day journey with NExplore NOW takes you through the heart of Northeast India —
+                from the sacred Kamakhya</p>
+              <p class=" mb-3 tourprice">₹30499</p>
+              <div class="d-flex justify-content-between">
+                <a href="#contact" class="btn btn-gradient-green px-3 py-2">
+                  <i class="fas fa-phone-alt"></i>Contact Now
+                </a>
+                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                  <i class="fas fa-eye"></i>View Trip
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="assets/img/package3.jpg" class="card-img-top" alt="Tour 3">
+            <div class="card-body">
+              <h5 class="card-title text-success">Kaziranga & Tawang 8 Days Trip</h5>
+              <h6 class="location"> <i class="fa-solid fa-location-dot "></i> Kaziranga & Tawang 8 days Trip</h6>
+              <p class="text-muted mb-1"><i class="fas fa-clock me-1 text-warning"></i> <strong>8 Days</strong> · Easy
+              </p>
+              <p class="card-text">Experience the best of Northeast India in an 8-day journey through Kaziranga and
+                Tawang. Begin with Kaziranga National.</p>
+              <p class=" mb-3 tourprice">₹35499</p>
+              <div class="d-flex justify-content-between">
+                <a href="#contact" class="btn btn-gradient-green px-3 py-2">
+                  <i class="fas fa-phone-alt"></i>Contact Now
+                </a>
+                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                  <i class="fas fa-eye"></i>View Trip
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="assets/img/7daymeglaya.jpg" class="card-img-top" alt="Tour 4">
+            <div class="card-body">
+              <h5 class="card-title text-success"> Meghalaya 7 Day Trip</h5>
+              <h6 class="location"> <i class="fa-solid fa-location-dot "></i> Meghalaya 7 Day trip</h6>
+
+              <p class="text-muted mb-1"><i class="fas fa-clock me-1 text-warning"></i> <strong>7 Days</strong> ·
+                Easy</p>
+              <p class="card-text">Discover Meghalaya’s hidden gems with NExplore NOW! From Shillong’s colonial charm to
+                Cherrapunjee’s majestic</p>
+              <p class=" mb-3 tourprice">₹30999</p>
+              <div class="d-flex justify-content-between">
+                <a href="#contact" class="btn btn-gradient-green px-3 py-2">
+                  <i class="fas fa-phone-alt"></i>Contact Now
+                </a>
+                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                  <i class="fas fa-eye"></i>View Trip
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <img src="assets/img/package5.jpeg" class="card-img-top" alt="Tour 5">
+            <div class="card-body">
+              <h5 class="card-title text-success">Kaziranga & Meghalaya 8 Day Trip</h5>
+              <h6 class="location"> <i class="fa-solid fa-location-dot "></i> Kaziranga & Meghalaya</h6>
+
+              <p class="text-muted mb-1"><i class="fas fa-clock me-1 text-warning"></i> <strong>8 Days</strong> · Easy
+              </p>
+              <p class="card-text">Experience the best of Northeast India with our 8-day Kaziranga & Meghalaya trip.
+                Begin with a thrilling jungle safari at</p>
+              <p class=" mb-3 tourprice">₹33499</p>
+              <div class="d-flex justify-content-between">
+                <a href="#contact" class="btn btn-gradient-green px-3 py-2">
+                  <i class="fas fa-phone-alt"></i>Contact Now
+                </a>
+                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                  <i class="fas fa-eye"></i>View Trip
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- ========== Car Rental Section ========== -->
+<section class="car-rental py-5 vehicles" style="background-color: #e0f7fa;">
+  <div class="container">
+    <h2 class="text-center mb-5" style="color: #00695C; font-family: 'Poppins', sans-serif;">Our Vehicles</h2>
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100 shadow rounded-4 border-0">
+          <img src="assets/img/sedan.jpg" class="card-img-top rounded-top-4" alt="SUV Car">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sedan Cars</h5>
+            <a href="#" class="btn btn-book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100 shadow rounded-4 border-0">
+          <img src="assets/img/suv.jpg" class="card-img-top rounded-top-4" alt="Sedan">
+          <div class="card-body text-center">
+            <h5 class="card-title">SUV</h5>
+            <a href="#" class="btn btn-book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100 shadow rounded-4 border-0">
+          <img src="assets/img/tempo-traveller.jpg" class="card-img-top rounded-top-4" alt="Tempo Traveller">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tempo Traveller (12-15 Seater)</h5>
+            <a href="#" class="btn btn-book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100 shadow rounded-4 border-0">
+          <img src="assets/img/Ertiga-1.jpg" class="card-img-top rounded-top-4" alt="Luxury Car">
+          <div class="card-body text-center">
+            <h5 class="card-title">Ertiga</h5>
+            <a href="#" class="btn btn-book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card h-100 shadow rounded-4 border-0">
+          <img src="assets/img/ahmedabad-wheels-force-urbania-large-mpv-rental-car-v2.png" class="card-img-top rounded-top-4" alt="Minibus">
+          <div class="card-body text-center">
+            <h5 class="card-title">Urbania</h5>
+            <a href="#" class="btn btn-book">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======= Why Choose Us Section ======= -->
+<section class="why-choose py-5" style="background-color: #fefefe;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #00695C;">Why Choose Us</h2>
+    <div class="row text-center g-4 justify-content-center">
+
+      <!-- Point 1 -->
+      <div class="col-6 col-md-3">
+        <div class="icon-circle mb-2" style="background-color: #e0f7fa;">
+          <i class="fas fa-rupee-sign text-success fs-3"></i>
+        </div>
+        <p style="font-size: 0.95rem; font-weight: 500;">Affordable Pricing</p>
+      </div>
+
+      <!-- Point 2 -->
+      <div class="col-6 col-md-3">
+        <div class="icon-circle mb-2" style="background-color: #f1f8e9;">
+          <i class="fas fa-user-tie text-primary fs-3"></i>
+        </div>
+        <p style="font-size: 0.95rem; font-weight: 500;">Expert Drivers</p>
+      </div>
+
+      <!-- Point 3 -->
+      <div class="col-6 col-md-3">
+        <div class="icon-circle mb-2" style="background-color: #fff8e1;">
+          <i class="fas fa-cogs text-warning fs-3"></i>
+        </div>
+        <p style="font-size: 0.95rem; font-weight: 500;">Custom Packages</p>
+      </div>
+
+      <!-- Point 4 -->
+      <div class="col-6 col-md-3">
+        <div class="icon-circle mb-2" style="background-color: #fce4ec;">
+          <i class="fas fa-headset text-danger fs-3"></i>
+        </div>
+        <p style="font-size: 0.95rem; font-weight: 500;">24x7 Support</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== Contact Section with Map ===== -->
+<section class="contact-section py-5" style="background-color: #f0fdfa;">
+  <div class="container">
+    <h2 class="text-center mb-5" style="color: #00695C;">Get in Touch</h2>
+    <div class="row g-4 align-items-start">
+
+      <!-- Left: Contact Details -->
+      <div class="col-md-6">
+        <div class="contact-details px-3">
+          <h5><i class="fas fa-map-marker-alt me-2 text-danger"></i> Address</h5>
+          <p>Police Bazaar, Shillong, Meghalaya 793001</p>
+
+          <h5><i class="fas fa-phone-alt me-2 text-success"></i> Phone</h5>
+          <p><a href="tel:+919876543210" class="text-decoration-none text-dark">+91 98765 43210</a></p>
+
+          <h5><i class="fas fa-envelope me-2 text-primary"></i> Email</h5>
+          <p><a href="mailto:info@nexplorenow.in" class="text-decoration-none text-dark">info@nexplorenow.in</a></p>
+
+          <h5><i class="fab fa-whatsapp me-2 text-success"></i> WhatsApp</h5>
+          <p><a href="https://wa.me/919876543210" target="_blank" class="text-decoration-none text-dark">Chat on WhatsApp</a></p>
+        </div>
+      </div>
+
+      <!-- Right: Google Map -->
+      <div class="col-md-6">
+        <div class="map-responsive rounded-4 overflow-hidden shadow-sm">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.833722745352!2d91.88022457428213!3d25.578772215421257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37507025c1731f9b%3A0x163e9028b6b957a2!2sPolice%20Bazaar%2C%20Shillong%2C%20Meghalaya%20793001!5e0!3m2!1sen!2sin!4v1689423709845!5m2!1sen!2sin" 
+            width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== Footer Start ====== -->
+<footer style="background-color: #004d40; color: #fff; padding: 60px 0 20px;">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- Branding -->
+      <div class="col-md-4">
+        <h4 style="font-family: 'Poppins', sans-serif;">NExplore NOW</h4>
+        <p>Explore Northeast India with the most comfortable cab rentals and curated tour packages designed just for you.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5 class="mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>Home</a></li>
+          <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>Tour Packages</a></li>
+          <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>Cab Booking</a></li>
+          <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4">
+        <h5 class="mb-3">Contact Us</h5>
+        <p><i class="fas fa-phone-alt me-2"></i>+91 98765 43210</p>
+        <p><i class="fas fa-envelope me-2"></i>info@nexplorenow.in</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="text-white fs-5"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/919876543210" class="text-white fs-5"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mt-5 mb-3" style="border-color: #66bb6a;">
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 NExplore NOW. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- ====== Footer End ====== -->
+<!-- ===== Sticky Buttons (Call & WhatsApp) ===== -->
+<a href="tel:+919876543210" class="sticky-call-btn">
+  <i class="fas fa-phone-alt"></i>
+</a>
+
+<a href="https://wa.me/919876543210" class="sticky-whatsapp-btn" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+</body>
+
+</html>

@@ -1,0 +1,369 @@
+
+
+.logo {
+  width: 76px;
+  height: 60px;
+}
+
+.hero {
+  background-color: #f0fdfa;
+}
+
+@media (max-width: 767px) {
+  .hero h1,
+  .hero p {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero .btn {
+    display: block;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+}
+
+
+.blinking-cta {
+  padding:15px;
+  text-align: center;
+  color: #fff !important;
+  font-size: 18px;
+  font-weight: bold;
+  animation: blinkBackground 3s infinite;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    border: 3px solid black; /* You can change the color and thickness */
+
+}
+
+@keyframes blinkBackground {
+  0% { background-color: #f39c12; }
+  25% { background-color: #27695c; }
+  50% { background-color: #8e44ad; }
+  75% { background-color: #3498db; }
+  100% { background-color: #27ae60; }
+}
+
+
+.our-services .service-box{
+  border: 2px solid rgb(212, 28, 28);
+}
+
+
+/* tour packages */
+ /* Section Padding */
+  .tour-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+
+  /* Card Styling */
+  .card {
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 105, 92, 0.15);
+  }
+
+  /* Title Highlight */
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Price Highlight */
+
+
+  /* Gradient Button: Contact Now */
+  .btn-gradient-green {
+    background-image: linear-gradient(45deg, #00c853, #43a047);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-gradient-green:hover {
+    background-image: linear-gradient(45deg, #43a047, #00c853);
+    box-shadow: 0 4px 12px rgba(0, 200, 83, 0.4);
+  }
+
+  /* Gradient Button: View Trip */
+  .btn-gradient-orange {
+    background-image: linear-gradient(45deg, #ff6f00, #ff8f00);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-gradient-orange:hover {
+    background-image: linear-gradient(45deg, #ff8f00, #ff6f00);
+    box-shadow: 0 4px 12px rgba(255, 111, 0, 0.4);
+  }
+
+  /* Icon spacing */
+  .btn i {
+    margin-right: 8px;
+  }
+
+  /* Responsive Button Alignment */
+  .card .d-flex {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .tourprice {
+    font-weight: 700;
+font-size: 25px;  
+color: #ff7800;
+  }
+
+  .location{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+
+  .btn-book {
+  background: linear-gradient(45deg, #00c853, #64dd17);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-book:hover {
+  background: linear-gradient(45deg, #43a047, #76ff03);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 200, 83, 0.3);
+}
+
+.vehicles .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #00695C;
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .btn-book {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 767px) {
+  .why-choose p {
+    font-size: 0.85rem;
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-circle i {
+    font-size: 1.2rem;
+  }
+}
+
+.map-responsive iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  border: none;
+}
+
+.contact-details h5 {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #00695C;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 767px) {
+  .contact-section {
+    text-align: center;
+  }
+
+  .contact-details {
+    padding: 0;
+  }
+
+  .map-responsive iframe {
+    height: 250px;
+  }
+}
+
+/* Common Styles */
+.sticky-call-btn,
+.sticky-whatsapp-btn {
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 55px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Call Button – Bottom Left */
+.sticky-call-btn {
+  left: 20px;
+  background: #00796B;
+}
+
+/* WhatsApp Button – Bottom Right */
+.sticky-whatsapp-btn {
+  right: 20px;
+  background: #25D366;
+}
+
+/* Hover Effects */
+.sticky-call-btn:hover,
+.sticky-whatsapp-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+
+  /* ===================================== */
+  .hero-banner {
+      background: linear-gradient(rgba(0, 105, 92, 0.7), rgba(0, 105, 92, 0.7)), url('/assets/img/packages1.jpeg') no-repeat center center;
+      background-size: cover;
+      padding: 100px 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .section-title {
+      border-bottom: 3px solid #FFC107;
+      display: inline-block;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #e0f2f1;
+      color: #00695C;
+    }
+
+    .includes-list i {
+      color: #00c853;
+      margin-right: 8px;
+    }
+
+    .excludes-list i {
+      color: #ff1744;
+      margin-right: 8px;
+    }
+/* Itinerary Section Styling */
+.info-box {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+/* Section Title */
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #00695C;
+  border-bottom: 3px solid #FFC107;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 25px;
+}
+
+/* Accordion Buttons */
+.accordion-button {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #f0fdfa;
+  color: #00695C;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e0f2f1;
+  color: #004d40;
+  box-shadow: none;
+}
+
+/* Accordion Content */
+.accordion-body {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  padding: 20px 10px 10px 10px;
+}
+
+/* Paragraphs Inside Accordion */
+.accordion-body p {
+  margin-bottom: 12px;
+}
+
+/* Responsive Typography */
+@media (max-width: 767px) {
+  .info-box {
+    padding: 25px 20px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .accordion-button {
+    font-size: 1rem;
+    padding: 14px;
+  }
+
+  .accordion-body {
+    font-size: 0.95rem;
+  }
+}
+
+
