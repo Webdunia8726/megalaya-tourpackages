@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaziranga & Tawang 8 Days Trip</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #212121;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            color: #00695C;
+        }
+
+        .btn-primary {
+            background-color: #FF5722;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #e64a19;
+        }
+
+        /* Header */
+        .navbar {
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            color: #00695C !important;
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(0, 105, 92, 0.8), rgba(0, 105, 92, 0.8)),
+                url('https://images.unsplash.com/photo-1574531964313-fec3b2efb384?auto=format&fit=crop&w=1600&q=80') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            border-radius: 0 0 30px 30px;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Fixed Header: Logo Left, Button Right (All Devices) -->
+    <nav class="py-3 px-4 bg-white shadow-sm" style="border-bottom: 2px solid #ff5722;">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+
+            <!-- Logo -->
+            <a class="fw-bold text-decoration-none" href="index.html"
+                style="font-size: 1.8rem; font-family: 'Poppins', sans-serif; color: #00695C;">
+                <img src="assets/img/logo.png" alt="" class="logo">
+            </a>
+
+            <!-- Book Now Button -->
+            <a href="tel:8812970938" class="btn btn-primary px-4 py-2" style="border-radius: 30px;">
+                📞 Book Now
+            </a>
+
+        </div>
+    </nav>
+
+
+    <!-- ===== Enhanced Hero Banner ===== -->
+    <section class="hero-banner position-relative text-white text-center d-flex align-items-center" style="
+  background: url('assets/img/package3hero.jpg') no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  overflow: hidden;
+">
+        <!-- Dark Overlay -->
+        <div style="
+    position: absolute;
+    inset: 0;
+    z-index: 1;">
+        </div>
+
+        <!-- Content -->
+        <div class="container position-relative z-2 text-white">
+            <h1 style="
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      color: white;">
+                Kaziranga & Tawang 8 Days Trip
+            </h1>
+            <p class="lead" style="
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);">
+                A journey of nature, spirituality & adventure
+            </p>
+        </div>
+    </section>
+
+
+    <div class="container mt-5 mb-5">
+
+        <!-- Overview -->
+        <div class="info-box">
+            <h2 class="section-title">Overview</h2>
+            <p>
+                Experience the best of Northeast India in an 8-day journey through Kaziranga and Tawang. Begin with
+                Kaziranga National Park, a wildlife haven where you’ll spot iconic rhinos, elephants, and tigers on
+                thrilling jeep safaris. Then ascend to serene Tawang, a Himalayan gem with ancient monasteries,
+                picturesque valleys, and breathtaking sights like the Sela Pass. Discover the rich heritage and
+                spirituality of this beautiful region as you explore its quaint villages and holy sites. From wildlife
+                encounters to mountain tranquility, this trip offers an unforgettable blend of nature, culture, and
+                adventure, capturing the true essence of Northeast India.
+        </div>
+        <!-- Itinerary Full Accordion (Responsive, No Hidden Text) -->
+        <div class="info-box">
+            <h2 class="section-title">Itinerary</h2>
+            <div class="accordion" id="fullItineraryAccordion">
+
+                <!-- Day 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day1Full">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay1Full" aria-expanded="true" aria-controls="collapseDay1Full">
+                            Day 01: 
+Arrival in Guwahati – Transfer to Kaziranga
+                        </button>
+                    </h2>
+                    <div id="collapseDay1Full" class="accordion-collapse collapse show" aria-labelledby="day1Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                          <p>Arrive at Guwahati Airport, where your NExplore NOW representative welcomes you. Begin a scenic 4–5 hour drive to Kaziranga National Park, a UNESCO World Heritage Site. Upon arrival, check into your resort, relax, and soak in the serene surroundings. In the evening, enjoy a traditional Assamese dinner and a briefing about your upcoming adventure.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day2Full">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay2Full" aria-expanded="false" aria-controls="collapseDay2Full">
+                            Day 02: Kaziranga National Park – Jungle Safari Day
+                        </button>
+                    </h2>
+                    <div id="collapseDay2Full" class="accordion-collapse collapse" aria-labelledby="day2Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                           <p>Rise early for an exhilarating elephant safari through the misty grasslands, spotting one–horned rhinos, deer, and exotic bird species. After breakfast, relax, then set out on an afternoon jeep safari for closer encounters with Kaziranga’s rich wildlife. Spend the evening strolling nearby tea gardens or enjoying a cultural program at the resort.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day3Full">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay3Full" aria-expanded="false" aria-controls="collapseDay3Full">
+                            Day 03: Kaziranga to Dirang
+                        </button>
+                    </h2>
+                    <div id="collapseDay3Full" class="accordion-collapse collapse" aria-labelledby="day3Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                            <p>After breakfast, embark on a picturesque drive towards Dirang (7–8 hrs), winding through forests and valleys. Enjoy lunch en route and make photo stops at scenic spots. Upon reaching Dirang, check into your hotel and relax amid crisp mountain air. Spend the evening exploring the picturesque town.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Day 04 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day4Full">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay4Full" aria-expanded="false" aria-controls="collapseDay4Full">
+                            Day 04: Dirang to Tawang via Sela Pass
+                        </button>
+                    </h2>
+                    <div id="collapseDay4Full" class="accordion-collapse collapse" aria-labelledby="day4Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                          <p>After an early breakfast, drive to Tawang (5–6 hrs), crossing the breathtaking Sela Pass at 13,700 ft. Pause for a photo op by the crystal–clear Paradise Lake. Visit the Jaswant Garh War Memorial and Nuranang Waterfall along the way. Arrive in Tawang by evening and settle into your cozy accommodation.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Day 05 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day5Full">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay5Full" aria-expanded="false" aria-controls="collapseDay5Full">
+                            Day 05: Discovering Tawang Monastery & Surroundings
+                        </button>
+                    </h2>
+                    <div id="collapseDay5Full" class="accordion-collapse collapse" aria-labelledby="day5Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                          <p>Explore the 400–year–old Tawang Monastery, the largest in India, and witness its serene morning rituals. After lunch, visit the Tawang War Memorial and stroll through the bustling markets, capturing the spiritual and cultural essence of the town. End the day with a quiet walk enjoying panoramic mountain views.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Day 06 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day6Full">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay6Full" aria-expanded="false" aria-controls="collapseDay6Full">
+                            Day 06: 
+Day Trip to Madhuri Lake & Bum La Pass
+                        </button>
+                    </h2>
+                    <div id="collapseDay6Full" class="accordion-collapse collapse" aria-labelledby="day6Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                           <p>With special permits arranged by NExplore NOW, set out early towards Madhuri Lake (Shonga–tser), framed by tall mountains and pine trees. Continue to the legendary Bum La Pass, located on the Indo–China border, and gain insights into its significance. Return to Tawang by evening for a warm dinner and rest.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Day 07 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day7Full">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay7Full" aria-expanded="false" aria-controls="collapseDay7Full">
+                            Day 07: Tawang to Bomdila
+                        </button>
+                    </h2>
+                    <div id="collapseDay7Full" class="accordion-collapse collapse" aria-labelledby="day7Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                            <li>Descend from the heights of Tawang towards Bomdila (5–6 hrs), making stops to capture panoramic landscapes. Upon arrival, visit the Bomdila Monastery and nearby handicraft centers. Enjoy a cozy evening surrounded by the tranquility of the Eastern Himalayas.</li>
+                        </div>
+                    </div>
+                </div>
+                <!-- Day 08 -->
+
+                <!-- Day 07 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="day7Full">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseDay7Full" aria-expanded="false" aria-controls="collapseDay7Full">
+                            Day 08: Bomdila to Guwahati – Farewell to the Northeast
+                        </button>
+                    </h2>
+                    <div id="collapseDay7Full" class="accordion-collapse collapse" aria-labelledby="day7Full"
+                        data-bs-parent="#fullItineraryAccordion">
+                        <div class="accordion-body">
+                            <p>After an early breakfast, drive back to Guwahati (8–9 hrs), taking in the last sights of Assam and Arunachal Pradesh. Upon arrival, our NExplore NOW team will drop you at the airport for your journey home, carrying memories of the rich wildlife, spirituality, and heritage of Northeast India.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Includes & Excludes -->
+        <div class="row">
+            <!-- Includes -->
+            <div class="col-md-6">
+                <div class="info-box">
+                    <h3 class="section-title">Includes</h3>
+                    <ul class="list-unstyled includes-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> All accommodations as mentioned</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Vehicle as mentioned at disposal</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> NExplore NOW hyper local guides and
+                            storytellers during the hikes and treks</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Meals as mentioned</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Parking, fuel and toll charges</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Driver's allowance, food and
+                            accommodation</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Quick access to basic medical/first
+                            aid kit during the trip</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Excludes -->
+            <div class="col-md-6">
+                <div class="info-box">
+                    <h3 class="section-title">Excludes</h3>
+                    <ul class="list-unstyled excludes-list">
+                        <li><i class="fas fa-times-circle"></i> Air/Rail Fare</li>
+                        <li><i class="fas fa-times-circle"></i> Additional meals not mentioned</li>
+                        <li><i class="fas fa-times-circle"></i> Personal expenses (laundry, tips, etc.)</li>
+                        <li><i class="fas fa-times-circle"></i> Optional activities not listed</li>
+                        <li><i class="fas fa-times-circle"></i> Travel Insurance</li>
+                        <li><i class="fas fa-times-circle"></i> Emergency or medical expenses</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- ===== Sticky Buttons (Call & WhatsApp) ===== -->
+<a href="tel:8812970938" class="sticky-call-btn">
+    <i class="fas fa-phone-alt"></i>
+</a>
+
+<a href="https://wa.me/916001554226" class="sticky-whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- ====== Footer Start ====== -->
+<footer style="background-color: #004d40; color: #fff; padding: 60px 0 20px;">
+    <div class="container">
+        <div class="row gy-4">
+            <!-- Branding -->
+            <div class="col-md-4">
+                <h4 style="font-family: 'Poppins', sans-serif;">NExplore NOW</h4>
+                <p>Explore Northeast India with the most comfortable cab rentals and curated tour packages designed just
+                    for you.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none"><i
+                                class="fas fa-angle-right me-2"></i>Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>Tour
+                            Packages</a></li>
+                    <li><a href="#" class="text-white text-decoration-none"><i class="fas fa-angle-right me-2"></i>Cab
+                            Booking</a></li>
+                    <li><a href="#" class="text-white text-decoration-none"><i
+                                class="fas fa-angle-right me-2"></i>Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-md-4">
+                <h5 class="mb-3">Contact Us</h5>
+                <p><i class="fas fa-phone-alt me-2"></i>+91 8812970938</p>
+                <p><i class="fas fa-envelope me-2"></i>nexplorenow48@gmail.com</p>
+
+            </div>
+        </div>
+
+        <hr class="mt-5 mb-3" style="border-color: #66bb6a;">
+        <div class="text-center">
+            <p class="mb-0">&copy; 2025 NExplore NOW. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery (necessary for Owl Carousel) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</html>

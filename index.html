@@ -57,25 +57,7 @@
       color: #00695C !important;
     }
 
-    .hero-section {
-      background: linear-gradient(rgba(0, 105, 92, 0.8), rgba(0, 105, 92, 0.8)),
-        url('https://images.unsplash.com/photo-1574531964313-fec3b2efb384?auto=format&fit=crop&w=1600&q=80') no-repeat center center;
-      background-size: cover;
-      color: white;
-      padding: 100px 20px;
-      text-align: center;
-      border-radius: 0 0 30px 30px;
-    }
 
-    .hero-section h1 {
-      font-size: 3rem;
-      font-weight: bold;
-    }
-
-    .hero-section p {
-      font-size: 1.2rem;
-      margin-top: 15px;
-    }
   </style>
 </head>
 
@@ -98,44 +80,62 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="hero py-5">
-    <div class="container">
-      <div class="row align-items-center">
+<!-- Bootstrap Video Carousel -->
+<div id="videoCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
 
-        <!-- Left: Text Content -->
-        <div class="col-md-6 mb-4 mb-md-0">
-          <h1 class="mb-3 fw-bold" style="font-family: 'Poppins', sans-serif; color: #00695C;">
-            Best <span style="color: #FF5722;">Meghalaya Cab Services</span> &amp;
-            <span style="color: #FFC107;">Tour Packages</span>
-          </h1>
-          <p style="font-size: 1.1rem; color: #444;">
-            Explore the beauty of <strong>Shillong, Cherrapunji</strong> and more with our
-            affordable <span style="color: #00695C; font-weight: 600;">cab rentals</span> and
-            <span style="color: #00695C; font-weight: 600;">customized holiday packages</span>.
-          </p>
-          <!-- Blinking Animated CTA Section -->
-          <section class="blinking-cta">
-            <h2 class="text-white"> Book Now, Pay After the Ride – <b>No Advance Required!</b> </h2>
-          </section>
-          <a href="tel:8812970938" class="btn btn-primary px-4 py-2 mt-3" style="border-radius: 30px;">
-            📅 Book Your Trip Now
-          </a>
-          <img src="assets/img/herotrustorg.png" alt="" class="img-fluid mt-3" >
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <video class="d-block w-100 hero-video" autoplay muted loop playsinline>
+        <source src="assets/img/herosection.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <video class="d-block w-100 hero-video" autoplay muted loop playsinline>
+        <source src="assets/img/herosecond.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </div>
+</div>
+
+<!-- Hero Section -->
+<section class="hero py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- Full Width Text Content -->
+      <div class="col-lg-10 text-center">
+        <h1 class="mb-3 fw-bold" style="font-family: 'Poppins', sans-serif; color: #00695C;">
+          Best <span style="color: #FF5722;">Meghalaya Cab Services</span> &amp;
+          <span style="color: #FFC107;">Tour Packages</span>
+        </h1>
+        <p style="font-size: 1.1rem; color: #444;">
+          Explore the beauty of <strong>Shillong, Cherrapunji</strong> and more with our
+          affordable <span style="color: #00695C; font-weight: 600;">cab rentals</span> and
+          <span style="color: #00695C; font-weight: 600;">customized holiday packages</span>.
+        </p>
+
+        <!-- Blinking Animated CTA Section -->
+        <section class="blinking-cta mt-4">
+          <h2 class="text-white p-2 rounded-3 d-inline-block">📞 Book Now, Pay After the Ride – <b>No Advance Required!</b></h2>
+        </section>
+
+        <a href="tel:8812970938" class="btn btn-primary px-4 py-2 mt-4" style="border-radius: 30px;">
+          📅 Book Your Trip Now
+        </a>
+
+        <div class="mt-4">
+          <img src="assets/img/herotrustorg.png" alt="Trusted Travel Agency" class="img-fluid" style="max-width: 300px;">
         </div>
-
-
-
-
-        <!-- Right: Hero Image -->
-        <div class="col-md-6 text-center">
-          <img src="assets/img/herosectionhome.png"
-            alt="Meghalaya Tour Cab" class="img-fluid rounded-4 ">
-        </div>
-
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 
 <!-- ======= Our Services Section ======= -->
@@ -220,7 +220,6 @@
           </div>
         </div>
 
-        <!-- Duplicate 4 More Cards -->
         <!-- You can replace the image and text for real tours -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 shadow-sm border-0">
@@ -238,7 +237,7 @@
                 <a href="https://wa.me/916001554226" class="btn btn-gradient-green px-3 py-2">
                   <i class="fas fa-phone-alt"></i>Contact Now
                 </a>
-                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                <a href="package2.html" class="btn btn-gradient-orange px-3 py-2">
                   <i class="fas fa-eye"></i>View Trip
                 </a>
               </div>
@@ -261,7 +260,7 @@
                 <a href="https://wa.me/916001554226" class="btn btn-gradient-green px-3 py-2">
                   <i class="fas fa-phone-alt"></i>Contact Now
                 </a>
-                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                <a href="package3.html" class="btn btn-gradient-orange px-3 py-2">
                   <i class="fas fa-eye"></i>View Trip
                 </a>
               </div>
@@ -285,7 +284,7 @@
                 <a href="https://wa.me/916001554226" class="btn btn-gradient-green px-3 py-2">
                   <i class="fas fa-phone-alt"></i>Contact Now
                 </a>
-                <a href="#view-trip" class="btn btn-gradient-orange px-3 py-2">
+                <a href="package4.html" class="btn btn-gradient-orange px-3 py-2">
                   <i class="fas fa-eye"></i>View Trip
                 </a>
               </div>
